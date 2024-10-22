@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skolemat.no - Bestill mat</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f5f5f5;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1, h2 {
+            color: #333;
+            font-weight: bold;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #3e8e41;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #23527c;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+                       <img src="data:image/jpeg;base64,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" alt="Skolemat.no logo">
+            <h1>Velkommen til Velkomen til salat meny!</h1>
+            <p>Her kan du se alle våre salater.</p>
+            <ul>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
